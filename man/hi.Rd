@@ -4,11 +4,13 @@
 \alias{hi}
 \title{This function is a conversation starter}
 \usage{
-hi(who)
+hi(who, how = c("shout", "whisper"))
 }
 \arguments{
 \item{who}{character(1) The name of the person you wish to start a
 conversation with.}
+
+\item{how}{character(1) How to greet the convertant}
 }
 \value{
 character(1) A line of text to be used when starting conversations.
@@ -19,6 +21,7 @@ conversations in all kinds of awkward social situations.
 }
 \examples{
 hi("Song Yao")
+hi("Song Yao", "whisper")
 
 }
 
