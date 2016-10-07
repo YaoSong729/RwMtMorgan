@@ -6,7 +6,9 @@
 #' @param who character(1) The name of the person you wish to start a
 #'     conversation with.
 #'
-#' @param how character(1) How to greet the convertant
+#' @param how character(1) How to greet the convertant, shout (default) or
+#'     whisper
+#'
 #' @return character(1) A line of text to be used when starting conversations.
 #'
 #' @examples

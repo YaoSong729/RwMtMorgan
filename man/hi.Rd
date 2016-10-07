@@ -10,7 +10,8 @@ hi(who, how = c("shout", "whisper"))
 \item{who}{character(1) The name of the person you wish to start a
 conversation with.}
 
-\item{how}{character(1) How to greet the convertant}
+\item{how}{character(1) How to greet the convertant, shout (default) or
+whisper}
 }
 \value{
 character(1) A line of text to be used when starting conversations.
