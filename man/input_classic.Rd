@@ -12,18 +12,18 @@ input_classic(pdata_file, exprs_file)
 \item{exprs_file}{character(1) The path to the expression file.}
 }
 \value{
-A data.frame() containing samples as rows and phenotype data and 
+A data.frame() containing samples as rows and phenotype data and
 expression data as columns.
 }
 \description{
-The functions here illustrate how an "old school" R user might approach data 
+The functions here illustrate how an "old school" R user might approach data
 management and analysis
 }
 \details{
-There are two files.  They are from a microarray experiment. The 
-first file ALL-phenoData.csv describes the samples.  The second file, 
+There are two files.  They are from a microarray experiment. The
+first file ALL-phenoData.csv describes the samples.  The second file,
 ALL-expression.csv are the normalized expression values for 12k probesets
-across 128 samples. The files originally came from sheets in excel, and 
+across 128 samples. The files originally came from sheets in excel, and
 were exported from Excel using export-to-csv.
 }
 
