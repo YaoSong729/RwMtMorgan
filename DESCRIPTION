@@ -1,6 +1,6 @@
 Package: pkg
 Title: A pilot R package for learning intermediate R with Martin Morgan
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: person("Song", "Yao",
     email = "song.yao@roswellpark.org",
     role = c("aut", "cre"))
